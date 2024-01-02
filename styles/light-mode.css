@@ -1,0 +1,13 @@
+.settings-menu.light-mode{
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: black;
+}
+
+.light-mode{
+    --topbarbg: rgb(255, 255, 255);
+    --infosvg: rgb(172, 169, 163);
+    --pill: rgb(240, 240, 240);
+    --pill-text: rgb(46, 46, 46);
+    --drag: #333;
+}

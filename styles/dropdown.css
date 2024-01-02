@@ -1,0 +1,13 @@
+.myDropdown{
+    display: none;
+    /* bottom: -40px;
+    left: 10px; */
+    padding: 6px 10px;
+    border-radius: 4px;
+    position: absolute;
+    background-color: var(--dropdownBgColor);
+    color: inherit;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 25;
+}
+

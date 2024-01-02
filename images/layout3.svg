@@ -1,0 +1,11 @@
+<svg id="Layer_1" height="60" viewBox="0 0 24 24" width="60"
+    xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+    <g>
+        <g>
+            <path fill="currentColor" stroke-width="1px" stroke="currentColor" d="m19.9 23.4h-15.8c-1.9 0-3.5-1.6-3.5-3.5v-15.8c0-1.9 1.6-3.5 3.5-3.5h15.7c1.9 0 3.5 1.6 3.5 3.5v15.7c.1 2-1.5 3.6-3.4 3.6zm-15.8-21.8c-1.4 0-2.5 1.1-2.5 2.5v15.7c0 1.4 1.1 2.5 2.5 2.5h15.7c1.4 0 2.5-1.1 2.5-2.5v-15.7c0-1.4-1.1-2.5-2.5-2.5z" />
+        </g>
+        <g>
+            <path fill="currentColor" stroke-width="1px" stroke="currentColor" d="m16.3 23c-.3 0-.5-.2-.5-.5v-21c0-.3.2-.5.5-.5s.5.2.5.5v21.1c0 .2-.3.4-.5.4z" />
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,142 @@
+@media only screen and (max-width: 1300px) {
+  .video-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: calc(100vw - 2rem);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .video-app {
+      flex-direction: column;
+    }
+
+    #video-main1 {
+      width: 100%;
+    }
+
+    
+
+  .sidebar {
+    grid-column: 1;
+    grid-row: 5;
+    width: 100%;
+  }
+  .iconbar {
+    width: 100%;
+  }
+  .topbar {
+    width: 100%;
+  }
+  .video-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .sponsors {
+    grid-row: 2;
+    width: 100%;
+  }
+  .main-speaker-name {
+    font-size: 0.875rem;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
+  body.fullscreen .main-speaker .main-speaker-video {
+    height: 100%;
+    aspect-ratio: unset;
+  }
+  body.fullscreen .main-speaker .main-speaker-window {
+    aspect-ratio: unset;
+  }
+  body.fullscreen .main-speaker-container.layout-1 .main-speaker-video {
+    aspect-ratio: 16/9;
+    height: auto;
+    object-fit: cover;
+  }
+  body.fullscreen
+    .main-speaker
+    .main-speaker-container.layout-1
+    .main-speaker-window {
+    aspect-ratio: 16/9;
+  }
+
+  body.fullscreen .main-speaker .main-speaker-container {
+    height: 100%;
+  }
+  body.fullscreen .main-speaker .main-speaker-container.layout-1 {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .video-footer__mini-video--name {
+    display: none;
+  }
+
+  .no-video-placeholder {
+    margin-bottom: 0;
+  }
+  .audience-no-video-photo {
+    margin-bottom: 0;
+  }
+
+  .audience-placeholder {
+    margin-bottom: 0;
+  }
+  .video-footer {
+    max-width: 100px;
+  }
+  .icon-bar {
+    max-width: 380px;
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .group-buttons {
+    gap: 10px;
+  }
+  .main-speaker-name {
+    padding: 2px 0px;
+  }
+
+  .room-name {
+    padding-left: 0px;
+  }
+
+  .horizontal-divider {
+    font-weight: 100;
+    padding: 0px 0px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .full-screen-icon {
+    top: 10px;
+  }
+  .top-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .room-picker .btn {
+    padding: 5px 5px;
+  }
+  .justify-start {
+    gap: 2px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .full-screen-icon {
+    top: 10px;
+  }
+}

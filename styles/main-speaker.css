@@ -1,0 +1,66 @@
+.layouts-card {
+  position: absolute;
+  display: flex;
+  width: 0px;
+  flex-direction: column;
+  align-items: center;
+  right: 0;
+  font-weight: 500;
+  color: rgb(40, 40, 40);
+  margin-top: -75px;
+  z-index: 1200;
+  padding: 0;
+  top: 50%;
+  backdrop-filter: blur(0px) saturate(0%);
+  -webkit-backdrop-filter: blur(0px) saturate(0%);
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 6px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  /* border: 1px solid rgba(209, 213, 219, 0.3); */
+  transition: width 330ms ease-in-out;
+  overflow: hidden;
+}
+
+.make-primary-tooltip {
+  position: absolute;
+  color: var(--infosvg);
+  top: 5px;
+  right: 5px;
+}
+
+.make-primary-tooltip svg {
+  fill: none;
+}
+
+.screenshare {
+  display: none;
+}
+
+.switch-layout {
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.raise-hand {
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.raise-hand:hover {
+  animation-name: example;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

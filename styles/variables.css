@@ -1,0 +1,30 @@
+:root{
+    --off-white: #F6F6F7;
+    --almost-white: rgb(252, 252, 252);
+    --darkBlack: #2D3E50;
+    --success: #29A645;
+    --brightGreen: #2EE59D;
+    --error: #DC3444;
+    --warning: #FFC006;
+    --dark: #353B40;
+    --secondary: #007BFF;
+    --primary: #1977D3;
+    --primary--light: #42a5f5;
+    --primary--dark: #1565c0;
+    --primary-hover: #407f92;
+    --shadow: rgba(105, 105, 105, 0.4);
+    --boxshadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    --speakerBackground: #f6f6f71c;
+    --video-width: 100%;
+    --video-height: 100%;
+    --admin-layouts-backgr: rgb(36, 36, 36);
+    --dropdownBgColor: rgb(218, 218, 218);
+    --dropdownBgColorhover: rgb(196, 196, 196);
+    --dropdownBgColorRemove: rgb(146, 146, 146);
+    --topbarbg: rgb(36, 36, 36);
+    --infosvg: white;
+    --audience-height: 720px;
+    --pill: rgb(66, 66, 66);
+    --pill-text: rgb(219, 219, 219);
+    --drag: white;
+}

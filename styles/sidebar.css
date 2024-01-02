@@ -1,0 +1,134 @@
+.sidebar {
+  grid-column: 2;
+  width: 100%;
+  grid-row: 1/3;
+  background-color: rgb(41, 40, 40);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100%;
+}
+
+.tablink {
+  background-color: inherit;
+  color: inherit;
+  font-weight: 500;
+  font-size: 1rem;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-top: 12px;
+  width: 100%;
+  position: relative;
+}
+
+.tablink:hover {
+  background-color: rgba(238, 238, 238, 0.3);
+}
+
+.tablink {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: inherit;
+  font-size: 12px;
+  gap: 3px;
+}
+
+.participant-control-btn {
+  width: 100%;
+  margin-left: 0px;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+#adminNotification {
+  width: 100%;
+}
+
+.icon.speakerIcon {
+  border: 2px solid var(--primary);
+  cursor: default;
+  user-select: none;
+  margin-bottom: 10px;
+}
+
+.icon.speakerIcon::after {
+  content: "S";
+  width: 12px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  font-size: 12px;
+  background-color: rgb(17, 111, 252);
+  border-radius: 50%;
+  bottom: 0;
+  right: -5px;
+  color: white;
+}
+
+.num-of-speakers {
+  display: flex;
+  align-items: center;
+}
+
+.iconSpeaker {
+  width: 12px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  border-radius: 50%;
+  background-color: rgb(17, 111, 252);
+  color: white;
+}
+
+.icon-guide {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: auto;
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+.userModalVideo {
+  width: 300px;
+  height: 169px;
+  object-fit: contain;
+}
+
+.userModal__name {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 0.9;
+  margin-bottom: 10px;
+}
+
+.userModal {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.raisedHandModal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.showChatHistory {
+  margin-top: 23px;
+}

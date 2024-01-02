@@ -1,0 +1,415 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap");
+
+.body {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  background-color: white;
+  display: grid;
+  font-size: 16px;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  width: 100%;
+  padding: 0px;
+}
+
+/* Header with logo and back button */
+
+/* Main Container  */
+
+/* H Tags Start ---------------------------------*/
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.big {
+  font-size: 4rem;
+  font-weight: 700;
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* H Tags End ---------------------------------*/
+
+/* Anchor Links Start ---------------------------------*/
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+a:hover {
+  color: var(--primary--dark);
+}
+/* a:active{
+    transform: translateY(1px);
+} */
+/* Anchor Links End ---------------------------------*/
+
+/* Button Start ---------------------------------*/
+.btn {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: 220ms ease-in-out;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: inherit;
+  user-select: none;
+  text-align: center;
+}
+/* .btn:active {
+    transform: translateY(4px);
+    transition: 100ms;
+} */
+
+.btn:focus {
+  outline: none;
+}
+.btn.light:focus {
+  outline: none;
+  border: 1px solid black;
+  box-shadow: 0 0 0 2px #2d3e50;
+  color: black;
+}
+
+.btn-xs {
+  line-height: 25px;
+  padding: 0px 5px;
+}
+
+.btn-sm {
+  line-height: 30px;
+  padding: 0px 7px;
+}
+
+.btm-md {
+  padding: 0px 9px;
+}
+
+/* Button End */
+
+/* Button Colors Start*/
+.light {
+  background-color: var(--almost-white);
+  color: var(--dark);
+  box-shadow: 0 0 0 1px #2d3e50;
+  border: 1px solid transparent;
+}
+.dark {
+  background-color: var(--darkBlack);
+  color: white;
+}
+.normal {
+  background-color: var(--secondary);
+  color: white;
+  border: 1px solid transparent;
+}
+
+.btn.disabled,
+.btn:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  opacity: 0.65;
+  border: 1px solid transparent;
+  box-shadow: none;
+}
+
+.btn:disabled:hover {
+  background-color: #6c757d;
+  opacity: 0.65;
+  border: 1px solid transparent;
+  box-shadow: none;
+}
+
+.primary {
+  background-color: var(--primary);
+  color: white;
+  border: 1px solid transparent;
+}
+.success {
+  background-color: var(--success);
+  color: white;
+  border: 1px solid transparent;
+}
+.danger {
+  background-color: var(--error);
+  color: white;
+  border: 1px solid transparent;
+}
+/* Button Colors End*/
+
+.background-primary {
+  background-color: var(--primary);
+}
+
+/* Button Hover States Start */
+.light:hover {
+  background-color: #e7e7e7;
+  box-shadow: 0 0 0 2px #2d3e50;
+}
+.dark:hover {
+  background-color: rgb(70, 88, 109);
+  box-shadow: 2px 3px 10px var(--shadow);
+  color: white;
+}
+.normal:hover {
+  background-color: #005dc0;
+  color: white;
+  border: 1px solid var(--secondary);
+  box-shadow: 2px 3px 10px var(--shadow);
+}
+.danger:hover {
+  background-color: #bb1f2fec;
+  color: white;
+  border: 1px solid var(--error);
+  box-shadow: 2px 3px 10px var(--shadow);
+}
+.success:hover {
+  background-color: #1b702ede;
+  color: white;
+  border: 1px solid var(--success);
+  box-shadow: 2px 3px 10px var(--shadow);
+}
+.primary:hover {
+  background-color: var(--primary--dark);
+  color: white;
+  border: 1px solid var(--primary);
+  box-shadow: 2px 3px 10px var(--shadow);
+}
+/* Button Hover States End */
+
+/* Card Start */
+.card {
+  margin: 10px;
+  background-color: #fbfbfb;
+  padding: 50px;
+  /* border-top: 5px solid transparent; */
+  transition: 200ms ease-in-out;
+  text-align: center;
+  user-select: none;
+  border-radius: 2px;
+  /* border-top: 5px solid var(--darkBlue); */
+}
+.card:hover {
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.01);
+  cursor: pointer;
+}
+.card:active {
+  transition: 100ms ease-in-out;
+  transform: translateY(2px);
+  box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-regular {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: rgb(252, 252, 252);
+}
+
+/* .card-general:hover{
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+} */
+
+/* Card End */
+
+/* Flex Start*/
+.flex {
+  display: flex;
+}
+.shrink {
+  flex-shrink: 1;
+}
+.fd-c {
+  flex-direction: column;
+}
+.jc {
+  justify-content: center;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+.jc-end {
+  justify-content: flex-end;
+}
+
+.jc-se {
+  justify-content: space-evenly;
+}
+.ai-c {
+  align-items: center;
+}
+.ai-s {
+  align-items: flex-start;
+}
+
+.ai-e {
+  align-items: flex-end;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+/* Flex End*/
+
+/* Input and Select Start */
+input,
+select,
+textarea {
+  border-radius: 4px;
+  margin: 8px 0px;
+  padding: 7px;
+  border: 1px solid #cfd4db;
+  transition: box-shadow 200ms ease-in-out;
+  outline: none;
+  font-family: inherit;
+}
+
+input:focus,
+select:focus {
+  box-shadow: 0px 0px 5px 1px var(--primary);
+  border: 1px solid #5873919d;
+}
+
+input[type="range"]:focus {
+  box-shadow: none;
+  border: none;
+}
+
+label {
+  padding-right: 7px;
+  user-select: none;
+}
+
+select {
+  font-size: 0.8rem;
+}
+input[type="checkbox"] {
+  margin-right: 10px;
+  box-shadow: none;
+}
+input[type="range"] {
+  padding: 0;
+  max-width: 500px;
+  border: none;
+}
+.ul {
+  margin: 0;
+  padding: 0;
+}
+/* textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 8px ;
+    border: 1px solid rgb(192, 192, 192);
+} */
+
+textarea:focus {
+  outline: none;
+  box-shadow: 0px 0px 4px 3px rgba(69, 194, 231, 0.3);
+}
+/* Input and Select End */
+
+/* Utilities */
+.badge {
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 16px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 8px 5px 8px;
+  border-radius: 50rem;
+}
+.badge__img {
+  margin-right: 5px;
+  width: 18px;
+}
+
+.underline {
+  border-bottom: 2px solid black;
+}
+
+.scroll {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  opacity: 80%;
+  background-color: white;
+  border: none;
+  transition: 300ms ease-in-out;
+}
+
+.scroll:hover {
+  transform: scale(1.2);
+}
+
+.btn-close:focus {
+  box-shadow: none;
+}
+.btn:focus {
+  box-shadow: none;
+}
+/* Animations */
+.sideways:active {
+  transform: translateX(5px);
+  transition: 100ms ease-in-out;
+}
+
+.sideways-left:active {
+  transform: translateX(-5px);
+  transition: 100ms ease-in-out;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .scroll {
+    display: none;
+  }
+}
